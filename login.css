@@ -1,9 +1,7 @@
-body{
-    
-position: relative;
-width: 100vh;
-height: 100vh;
-
+body{ 
+    position: relative;
+    width: 1920px;
+    height: 900px;
     background-image: url(imagenfondo.jpg);
     background-repeat: no-repeat;
     background-size: cover;
@@ -20,12 +18,14 @@ height: 100vh;
     justify-content: center;
     align-items: center;
     padding: 80px;
+    padding-top: 0px;
+    padding-bottom: 59px;
     left: 0px;
     top: 0px;
     bottom: 0px;
     background-color: #fff;
-    width: 500px;
-    height: 800px;
+    max-width: 500px;
+    height: 900px;
     height: max-content;
     justify-content: flex-start;
     flex-direction: column;
@@ -39,11 +39,11 @@ height: 100vh;
     display: flex;
     background-color: #fff;
     height: 650px;
-width: 450px;
-left: 80px;
-top: 80px;
-border-radius: 0px;
-margin-top: 200px;
+    width: 450px;
+    left: 80px;
+    top: 0px;
+    border-radius: 0px;
+    margin-top: 200px;
 
 }
 h2{
